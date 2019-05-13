@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  cursor: pointer; 
+  text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 0.45rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #ff2070;
+    line-height: 0.4rem;
+    font-size: 0.16rem;
+    color: #FFFFFF;
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    img{
+        width: 100%;
+        height: 0.45rem;
+    }
+}
+.banaer{
+    position: absolute;
+    top: 0.45rem;
+    width: 100%;
+    height: 100%;
+    .bann_price{
+        width: 100%;
+//      border: 1px solid red;
+        p{
+            font-size: 0.18rem;
+            color: red;
+            padding-top: 0.1rem;
+            span{
+                font-size: 0.14rem;
+                color: gray;
+            }
+            button{
+                border: 1px solid red;
+                background-color: white;
+                width: 0.46rem;
+                height: 0.2rem;
+                font-size: 0.12rem;
+            }
+        }
+    }
+    .ba_mai{
+        width: 100%;
+        h2{
+            font-size: 0.14rem;
+            font-weight: bold;
+            line-height: 0.2rem;
+            span{
+                font-weight: 100;
+                font-size: 0.12rem;
+            }
+        }
+    }
+    .ba_usa{
+        background-color: #f5f5f5;
+        height: 0.4rem;
+        p{
+            font-size: 0.12rem;
+            color: black;
+        }
+        img{
+            width: 0.20rem;
+            height: 0.20rem;
+        }
+    }
+}
+.ba_class{
+    width: 100%;
+//  border: 1px solid red;
+font-size: 0.12rem;
+    ul{
+        line-height: 0.48rem;
+        li{
+            height: 0.48rem;
+            border-bottom: 1px solid lightgray;
+        }
+    }
+}
+.shop_pj{
+    height: 0.48rem;
+    ul{
+        line-height: 0.48rem;
+        li{
+            height: 0.48rem;
+        }
+    }
+}
+.ba_shoop{
+    width: 100%;
+    height: 0.9rem;
+//  border: 1px solid red;
+    img{
+        width: 0.65rem;
+    }
+}
+.shop_shoop{
+    width: 100%;
+    height: 1.6rem;
+//  border: 1px solid red;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        font-size: 0.12rem;
+    }
+    img{
+        width: 0.8rem;
+    }
+}
+#adds{
+    width: 100%;
+    height: 3rem;
+    background-color: #EFEFF4;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 0.53rem;
+    background-color: #F1F2F6;
+    border-top: 1px solid lightgray;
+    .foot_buy{
+        width: 100%;
+        ul{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            button{
+                width: 1rem;
+                height: 0.52rem;
+            }
+            img{
+                width: 0.2rem;
+            }
+            .bot_one{
+                background-color: #feb042;
+                color: white;
+                border: 0;
+            }
+            .bot_two{
+                background-color: #ff5f53;
+                color: white;
+                border: 0;
+            }
+        }
+    }
+}
+

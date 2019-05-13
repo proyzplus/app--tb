@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+.time_first img{
+	width: 1.7rem;
+}
+.time_first ul{
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.12rem;
+}

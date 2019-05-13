@@ -1,0 +1,196 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	height: 0.45rem;
+	position: fixed;
+	z-index: 999999;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: #F23030;
+}
+
+header .head_top {
+	height: 0.45rem;
+}
+
+header .head_top ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 0.45rem;
+}
+
+header .head_top ul li {
+	font-size: 0.16rem;
+}
+
+header .head_top ul li span {
+	line-height: 0.45rem;
+	color: white;
+}
+
+header .head_top ul img {
+	height: 0.45rem;
+}
+
+.main_car_m {
+	width: 100%;
+	border-bottom: 0.01rem solid lightgray;
+	position: absolute;
+  top: 0.45rem;
+}
+.main_car_m .car_topa{
+	width: 90%;
+	margin: auto;
+}
+.main_car_m .car_topa p{
+	font-size: 0.14rem;
+	font-weight: bold;
+	line-height: 0.26rem;
+}
+.main_car_m .car_topa p span{
+	font-size: 0.12rem;
+	font-weight: 100;
+}
+.car_top_b{
+	width: 90%;
+	margin: auto;
+	font-size: 0.13rem;
+	color: #81838e;
+}
+.car_top_b p{
+	line-height: 0.22rem;
+}
+.mar_fack{
+	position: absolute;
+	top: 1.1rem;
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 3.8rem;
+}
+.masica_shop{
+	width: 100%;
+	height: 1.11rem;
+	/*border: 1px solid red;*/
+}
+.masica_shop ul{
+	display: flex;
+	justify-content: space-between;
+}
+.masica_shop img{
+	width: 0.96rem;
+}
+.shop_rig{
+	width: 100%;
+	height: 0.96rem;
+}
+.shop_rig p{
+	font-size: 0.14rem;
+}
+.shop_rig img{
+	width: 0.18rem;
+}
+.shop_main{
+	width: 100%;
+	height: 0.82rem;
+	border-top: 1px solid lightgray;
+}
+.shop_main ul{
+	display: flex;
+	justify-content: space-between;
+}
+.shop_main ul li table span{
+	float: right;
+	font-size: 0.13rem;
+}			
+.shop_main ul li table span img{
+	width: 0.18rem;
+}
+.ma_spa{
+	width: 100%;
+	height: 0.35rem;
+	background-color: #fff3dc;
+	position: absolute;
+	top: 1.9rem;
+	line-height: 0.35rem;
+	color: red;
+	font-size: 0.12rem;
+}				
+.ma_spa img{
+	width: 0.18rem;
+}
+.las_shop{
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 2.25rem;
+}
+.sss{
+	width: 100%;
+	height: 0.44rem;
+	line-height: 0.44rem;
+}
+.sss ul{
+	display: flex;
+	justify-content: space-between;
+}
+.yf_main{
+	width: 100%;
+	height: 0.6rem;
+	font-size: 0.13rem;
+}
+.yf_main ul{
+	display: flex;
+	justify-content: space-between;
+}
+.foot_last{
+	width: 100%;
+	height: 0.49rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	line-height: 0.49rem;
+	background-color: white;
+}
+.foot_last ul{
+	display: flex;
+	justify-content: space-between;
+}
+.foot_last span{
+	color: red;
+	font-size: 0.12rem;
+}
+.foot_last button{
+	width: 1.35rem;
+	height: 0.49rem;
+	background-color: red;
+	color: white;
+	border: 0;
+	font-size: 0.17rem;
+}
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=shop_main.css.map */

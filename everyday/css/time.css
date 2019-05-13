@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  width: 100%;
+  height: 0.45rem;
+  position: fixed;
+  z-index: 999999;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #ff2070; }
+  header .head_top {
+    height: 0.45rem; }
+    header .head_top ul {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 0.45rem; }
+      header .head_top ul li {
+        font-size: 0.16rem; }
+        header .head_top ul li span {
+          line-height: 0.45rem;
+          color: white; }
+      header .head_top ul img {
+        height: 0.45rem; }
+
+.time_main {
+  width: 100%;
+  position: absolute;
+  top: 0.45rem; }
+  .time_main .time_top_tl {
+    width: 100%;
+    height: 0.4rem; }
+    .time_main .time_top_tl ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      text-align: center; }
+      .time_main .time_top_tl ul li {
+        font-size: 0.12rem;
+        color: #585858;
+        width: 0.75rem;
+        height: 0.4rem; }
+    .time_main .time_top_tl .tl_p {
+      width: 100%;
+      height: 0.35rem;
+      background-color: #fff3dc;
+      margin-top: -0.1rem;
+      line-height: 0.35rem;
+      color: #f23030; }
+  .time_main .time_first {
+    width: 100%;
+    margin-top: 0.36rem; }
+    .time_main .time_first .first_time {
+      width: 100%;
+      height: 1.3rem; }
+      .time_main .time_first .first_time .tiop {
+        display: flex;
+        justify-content: space-around; }
+        .time_main .time_first .first_time .tiop .first_left {
+          width: 20%;
+          height: 0.87rem;
+          line-height: 0.87rem; }
+          .time_main .time_first .first_time .tiop .first_left img {
+            width: 0.72rem; }
+        .time_main .time_first .first_time .tiop .first_right {
+          width: 80%;
+          height: 0.87rem; }
+          .time_main .time_first .first_time .tiop .first_right h3 {
+            font-size: 0.14rem;
+            margin-top: 0.1rem; }
+      .time_main .time_first .first_time .biton {
+        width: 100%;
+        border-top: 1px solid lightgray; }
+        .time_main .time_first .first_time .biton button {
+          width: 0.7rem;
+          height: 0.26rem;
+          border: 0;
+          background-color: #ff5e53;
+          color: white;
+          font-size: 0.12rem;
+          border-radius: 0.04rem;
+          float: right;
+          margin-top: 0.06rem; }
+
+.time_second {
+  display: none;
+  width: 100%;
+  margin-top: 0.36rem; }
+  .time_second .first_time {
+    width: 100%;
+    height: 1.3rem; }
+    .time_second .first_time .tiop {
+      display: flex;
+      justify-content: space-around; }
+      .time_second .first_time .tiop .first_left {
+        width: 20%;
+        height: 0.87rem;
+        line-height: 0.87rem; }
+        .time_second .first_time .tiop .first_left img {
+          width: 0.72rem; }
+      .time_second .first_time .tiop .first_right {
+        width: 80%;
+        height: 0.87rem; }
+        .time_second .first_time .tiop .first_right h3 {
+          font-size: 0.14rem;
+          margin-top: 0.1rem; }
+    .time_second .first_time .biton {
+      width: 100%;
+      border-top: 1px solid lightgray; }
+      .time_second .first_time .biton button {
+        width: 0.7rem;
+        height: 0.26rem;
+        border: 0;
+        background-color: #ff5e53;
+        color: white;
+        font-size: 0.12rem;
+        border-radius: 0.04rem;
+        float: right;
+        margin-top: 0.06rem; }
+
+.time_third {
+  display: none;
+  width: 100%;
+  margin-top: 0.36rem; }
+  .time_third .first_time {
+    width: 100%;
+    height: 1.3rem; }
+    .time_third .first_time .tiop {
+      display: flex;
+      justify-content: space-around; }
+      .time_third .first_time .tiop .first_left {
+        width: 20%;
+        height: 0.87rem;
+        line-height: 0.87rem; }
+        .time_third .first_time .tiop .first_left img {
+          width: 0.72rem; }
+      .time_third .first_time .tiop .first_right {
+        width: 80%;
+        height: 0.87rem; }
+        .time_third .first_time .tiop .first_right h3 {
+          font-size: 0.14rem;
+          margin-top: 0.1rem; }
+    .time_third .first_time .biton {
+      width: 100%;
+      border-top: 1px solid lightgray; }
+      .time_third .first_time .biton button {
+        width: 0.7rem;
+        height: 0.26rem;
+        border: 0;
+        background-color: #ff5e53;
+        color: white;
+        font-size: 0.12rem;
+        border-radius: 0.04rem;
+        float: right;
+        margin-top: 0.06rem; }
+
+.time_forth {
+  display: none;
+  width: 100%;
+  margin-top: 0.36rem; }
+  .time_forth .first_time {
+    width: 100%;
+    height: 1.3rem; }
+    .time_forth .first_time .tiop {
+      display: flex;
+      justify-content: space-around; }
+      .time_forth .first_time .tiop .first_left {
+        width: 20%;
+        height: 0.87rem;
+        line-height: 0.87rem; }
+        .time_forth .first_time .tiop .first_left img {
+          width: 0.72rem; }
+      .time_forth .first_time .tiop .first_right {
+        width: 80%;
+        height: 0.87rem; }
+        .time_forth .first_time .tiop .first_right h3 {
+          font-size: 0.14rem;
+          margin-top: 0.1rem; }
+    .time_forth .first_time .biton {
+      width: 100%;
+      border-top: 1px solid lightgray; }
+      .time_forth .first_time .biton button {
+        width: 0.7rem;
+        height: 0.26rem;
+        border: 0;
+        background-color: #ff5e53;
+        color: white;
+        font-size: 0.12rem;
+        border-radius: 0.04rem;
+        float: right;
+        margin-top: 0.06rem; }
+
+.time_fifth {
+  display: none;
+  width: 100%;
+  margin-top: 0.36rem; }
+  .time_fifth .first_time {
+    width: 100%;
+    height: 1.3rem; }
+    .time_fifth .first_time .tiop {
+      display: flex;
+      justify-content: space-around; }
+      .time_fifth .first_time .tiop .first_left {
+        width: 20%;
+        height: 0.87rem;
+        line-height: 0.87rem; }
+        .time_fifth .first_time .tiop .first_left img {
+          width: 0.72rem; }
+      .time_fifth .first_time .tiop .first_right {
+        width: 80%;
+        height: 0.87rem; }
+        .time_fifth .first_time .tiop .first_right h3 {
+          font-size: 0.14rem;
+          margin-top: 0.1rem; }
+    .time_fifth .first_time .biton {
+      width: 100%;
+      border-top: 1px solid lightgray; }
+      .time_fifth .first_time .biton button {
+        width: 0.7rem;
+        height: 0.26rem;
+        border: 0;
+        background-color: #ff5e53;
+        color: white;
+        font-size: 0.12rem;
+        border-radius: 0.04rem;
+        float: right;
+        margin-top: 0.06rem; }
+
+/*# sourceMappingURL=time.css.map */

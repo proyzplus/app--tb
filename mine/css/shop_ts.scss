@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 0.45rem;
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #FC6248;
+    .head_top {
+        height: 0.45rem;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 0.45rem;
+            li{
+                font-size: 0.16rem;
+                span{
+                    line-height: 0.45rem;
+                }
+            }
+            img {
+                height: 0.45rem;
+            }
+        }
+    }
+}
+.ts_main{
+    position: fixed;
+    top: 0.45rem;
+    bottom: 0;
+}
+body{
+    background-color: #ec443c;
+}

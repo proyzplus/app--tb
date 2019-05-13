@@ -1,0 +1,70 @@
+.maibox{
+	width: 100%;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 0.45rem;
+}
+.maibox_top{
+	width: 100%;
+	height: 0.45rem;
+	background-color: #f8f8f8;
+}
+.maibox_top span{
+	float: right;
+	line-height: 0.45rem;
+}
+.mai_fir{
+	width: 100%;
+	height: 0.46rem;
+	line-height: 0.46rem;
+}
+.mai_fir img{
+	height: 0.36rem;
+}
+.mai_sec{
+	width: 100%;
+	height: 100%;
+}
+.fir_one{
+	width: 100%;
+	height: 0.52rem;
+	font-size: 0.12rem;
+	border-bottom: 1px solid lightgray;
+}
+.fir_one img{
+	width: 0.28rem;
+	float: left;
+}
+.fir_one ul{
+	display: flex;
+	/*height: 0.42rem;*/
+	/*border: 1px solid red;*/
+	justify-content: space-between;
+	
+}
+.money_other{
+	width: 100%;
+	height: 0.44rem;
+	background-color: #f8f8f8;
+	line-height: 0.44rem;
+	font-size: 0.12rem;
+}
+.maibs_s{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 3rem;
+}
+footer{
+	width: 100%;
+	height: 0.45rem;
+	text-align: center;
+	line-height: 0.45rem;
+	color: white;
+	background-color: red;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}

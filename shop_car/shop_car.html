@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<script type="text/javascript" src="../js/rem.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/shop_car.css"/>
+	</head>
+	<body>
+		<header>
+			<ul>
+				<li>
+					<a href="../index.html"><img src="../everyday/img/every_02.png" /></a>
+				</li>
+				<li>
+					<span>购物车(<span>2</span>)</span>
+				</li>
+				<li>
+					<img src="../everyday/img/every_04.png" />
+				</li>
+			</ul>
+		</header>
+		
+		<div id="main_car">
+			<div class="car_top">
+				<ul>
+					<li>
+						<input type="checkbox" name="check" onclick="alla()"/>
+						<img src="../img/icon/icon-kin.png" />
+						<span>够味达精选网</span>
+					</li>
+					<li>
+						<span>领卷编辑</span>
+					</li>
+				</ul>
+			</div>
+			<div class="car_main">
+				<ul>
+					<li>
+						<div class="left">
+							<input type="checkbox" name="check" onclick="fir()"/>
+						</div>
+					</li>
+					<li>
+						<div class="right">
+							<img src="../img/pd/sf-1.jpg" />
+							<p>[黑卡96折]Apple苹果iPhone<br>7   (A1660)移动联通电信4G手机</p>
+							<p style="color: #707176;font-size: 0.12rem;">重量:3.3KG  颜色：标配</p>
+							<p style="color: red;font-weight: bold;">￥<span id="pr">100.00</span>
+								<span style="float: right;">
+									<button onclick="add()">+</button>
+									<input type="text" value="1" />
+									<button onclick="ja()">-</button>
+								</span></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div style="height: 0.1rem;"></div>
+			<div class="car_main">
+				<ul>
+					<li>
+						<div class="left">
+							<input type="checkbox" name="check" onclick="sec()"/>
+						</div>
+					</li>
+					<li>
+						<div class="right">
+							<img src="../img/pd/sf-2.jpg" />
+							<p>[黑卡96折]Apple苹果iPhone<br>7   (A1660)移动联通电信4G手机</p>
+							<p style="color: #707176;font-size: 0.12rem;">重量:3.3KG  颜色：标配</p>
+							<p style="color: red;font-weight: bold;">￥<span id="pr2">100.00</span>
+								<span style="float: right;">
+									<button onclick="add1()">+</button>
+									<input type="text" value="1" />
+									<button onclick="ja1()">-</button>
+								</span></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="foot_los">
+				<ul>
+					<li style="margin-left: 0.2rem;">
+						<input type="checkbox" name="check"/>
+						<span>全选</span>
+					</li><li>
+						<p style="font-weight: bold;">合计:<span style="font-weight: 100;" id="zj">0.00</span></p>
+					</li>
+					<li>
+						<a href="shop_main.html"><button style="color: white;font-size: 0.16rem;">结算</button></a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		
+		<script type="text/javascript" src="../js/jquery-1.10.2.min.js" ></script>
+		<script type="text/javascript" src="../js/jquery-3.0.0.min.js" ></script>
+		<script type="text/javascript">
+			var pr = document.getElementById("pr");
+			var put=document.getElementsByTagName("input")[2];
+			var pr2 = document.getElementById("pr2");
+			var put2=document.getElementsByTagName("input")[4];
+			var zj = document.getElementById("zj");
+			
+			var puts = document.getElementsByTagName("input");
+			var put_o =document.getElementsByTagName("input")[3];
+			var put_s =document.getElementsByTagName("input")[1];
+			
+			var zjj1;
+			var zjj2;
+			function alla()
+			{
+				for(var i=0;i<puts.length;i++)
+				{
+					puts[i].checked = puts[0].checked;
+				}
+				add();
+				ja();
+				add1();
+				ja1();
+			}
+			function fir()
+			{
+				if(put_s.checked)
+				{
+					put_o.checked;
+					zj.innerHTML = Number(pr.innerHTML) * Number(put.value);
+				}
+			}
+			function sec()
+			{
+				if(put_o.checked)
+				{
+					put_s.checked;
+					zj.innerHTML = Number(pr2.innerHTML) * Number(put2.value);
+				}
+			}
+			function add(){
+				put.value = Number(put.value) + 1;
+				zjj1 = pr.innerHTML * Number(put.value);
+				zjz();
+			}
+			function ja(){
+				put.value = Number(put.value) - 1;
+				if(put.value < 1)
+				{
+					put.value = 1;
+				}
+				zjj1 = pr.innerHTML * Number(put.value);
+				zjz();
+			}
+			
+			function add1(){
+				put2.value = Number(put2.value) + 1;
+				zjj2 = pr2.innerHTML * Number(put2.value);
+				zjz();
+			}
+			function ja1(){
+				put2.value = Number(put2.value) - 1;
+				if(put2.value < 1)
+				{
+					put2.value = 1;
+				}
+				zjj2 = pr2.innerHTML * Number(put2.value);
+				zjz();
+			}
+			function zjz(){
+				if(zjj1==null)
+				{
+					zj.innerHTML = Number(zjj2) + Number(pr2.innerHTML) -100 ;
+				}
+				else if(zjj2==null)
+				{
+					zj.innerHTML = Number(zjj1) + Number(pr.innerHTML) -100;
+				}
+				else
+				{
+					zj.innerHTML = Number(zjj2) + Number(zjj1);
+				}
+			}
+		</script>
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

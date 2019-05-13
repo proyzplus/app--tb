@@ -1,0 +1,40 @@
+.vip_second {
+  width: 100%;
+  display: none; }
+  .vip_second ul {
+    display: flex;
+    justify-content: space-between; }
+    .vip_second ul li {
+      width: 50%; }
+      .vip_second ul li img {
+        width: 1.7rem; }
+      .vip_second ul li .vip_one {
+        font-size: 0.12rem; }
+
+.vip_third {
+  width: 100%;
+  display: none; }
+  .vip_third ul {
+    display: flex;
+    justify-content: space-between; }
+    .vip_third ul li {
+      width: 50%; }
+      .vip_third ul li img {
+        width: 1.7rem; }
+      .vip_third ul li .vip_one {
+        font-size: 0.12rem; }
+
+.vip_forth {
+  width: 100%;
+  display: none; }
+  .vip_forth ul {
+    display: flex;
+    justify-content: space-between; }
+    .vip_forth ul li {
+      width: 50%; }
+      .vip_forth ul li img {
+        width: 1.7rem; }
+      .vip_forth ul li .vip_one {
+        font-size: 0.12rem; }
+
+/*# sourceMappingURL=vip.css.map */
